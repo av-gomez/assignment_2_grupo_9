@@ -2,7 +2,21 @@
 
 **Grupo 9** · Fundamentos de Python · Diplomado PUCP 2026
 
-**Dashboard:** PENDIENTE – pegar aquí el enlace de share.streamlit.io
+**Dashboard:** https://grupo9-crecimiento-regional.streamlit.app/
+
+## Qué muestra el dashboard
+
+En la barra lateral se elige el **año** (2007–2019) y las **regiones naturales** (Costa, Sierra,
+Selva). El crecimiento se mide desde 2007 hasta el año elegido. Con esos filtros cambian:
+
+- **Métricas:** número de departamentos, crecimiento mediano desde 2007 y VAB real por habitante
+  agregado (ponderado por población).
+- **Barras:** crecimiento acumulado de cada departamento, con el que más creció en el título.
+- **Dispersión:** peso de la minería vs. crecimiento, con el nombre del departamento al pasar el cursor
+  y la correlación de Pearson.
+- **Línea:** evolución del VAB por habitante de cada región natural.
+- **Mapa interactivo:** crecimiento por departamento, con verificación del cruce por ubigeo.
+- **Tabla** con los datos de los departamentos seleccionados.
 
 ## Pregunta
 
@@ -47,6 +61,9 @@ crecimiento **coincide con el peso de la minería** en su economía.
    el año en que inicia la producción de Las Bambas.
 2. **Solo dos departamentos retrocedieron: Madre de Dios (−23 %) y Moquegua (−3 %).** En Madre de
    Dios la caída va de la mano con la pérdida de peso de la minería (de 53 % a 25 % de su VAB).
+3. **En el mapa, los que más crecieron son vecinos.** Apurímac, Huánuco, Ayacucho, Cusco y
+   Huancavelica forman un bloque en la sierra centro y sur, todos con más de 75 %. La mediana de la
+   sierra (+75 %) casi duplica la de la costa (+42 %) y triplica la de la selva (+22 %).
 
 ## Limitaciones
 
@@ -67,6 +84,7 @@ crecimiento **coincide con el peso de la minería** en su economía.
 | `app.py` | Parte 3: dashboard en Streamlit |
 | `requirements.txt` | Librerías que necesita el dashboard |
 | `datos/dataset.csv` | Datos usados en las tres partes |
+| `datos/departamentos_peru.geojson` | Límites departamentales para los mapas y el dashboard |
 
 ## Cómo correr el dashboard en local
 
@@ -86,5 +104,5 @@ streamlit run app.py
 ## Integrantes
 
 - Jhanela Luz Carhuaz Fuster – Parte 1: Visualización
-- Amanda Gomez – Parte 2: Mapas
-- PENDIENTE – Parte 3: Dashboard
+- Amanda Gomez Flores – Parte 2: Mapas
+- Victor Roman Lazarte – Parte 3: Dashboard

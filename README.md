@@ -11,6 +11,7 @@ Integrantes:
 |---|---|
 | `assignment_1/` | Assignment 1 |
 | `assignment_2/` | Assignment 2 – Scraping, APIs y cruce por ubigeo. Temporada de lluvias **2022** |
+| `assignment_3/` | Assignment 3 – Visualización, mapas y dashboard: crecimiento regional y minería (ver su `README.md`) |
 
 ## Assignment 2: ¿El Estado declara emergencia donde más llueve?
 
