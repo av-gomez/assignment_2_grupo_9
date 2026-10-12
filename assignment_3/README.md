@@ -29,6 +29,9 @@ crecimiento **coincide con el peso de la minería** en su economía.
 **Fuentes:**
 - INEI, Producto Bruto Interno por departamentos: VAB a precios constantes de 2007, total y por actividad económica.
 - INEI, estimaciones y proyecciones de población por departamento (Boletín Especial N.° 25).
+- Límites departamentales: `datos/departamentos_peru.geojson`, de la sesión 7 del curso
+  (`fetch_data.py 07-mapas`). No trae ubigeo; en `mapas.ipynb` se le agrega el código INEI
+  y el Callao se une con Lima (`'15'`).
 
 **Decisiones sobre los datos:**
 - **Lima y Callao aparecen juntos** (`ubigeo = '15'`). El INEI publica el VAB de Lima con la
