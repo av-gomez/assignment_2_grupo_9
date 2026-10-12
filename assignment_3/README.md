@@ -86,5 +86,5 @@ streamlit run app.py
 ## Integrantes
 
 - Jhanela Luz Carhuaz Fuster – Parte 1: Visualización
-- PENDIENTE – Parte 2: Mapas
+- Amanda Gomez – Parte 2: Mapas
 - PENDIENTE – Parte 3: Dashboard
